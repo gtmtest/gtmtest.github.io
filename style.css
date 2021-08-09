@@ -4,6 +4,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'EliceDigitalBaeum_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html {
     background-color: #bbbbbb;
@@ -22,7 +28,7 @@ body {
 }
 p {
     color: #444444;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'EliceDigitalBaeum_Regular', sans-serif;
     font-size: 16pt;
     line-height: 1;
     margin: 4pt;
