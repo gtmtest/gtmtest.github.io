@@ -19,28 +19,28 @@
 
 <h1 style="font-weight:100;color:gray">결과!</h1>
 
-<h2>Economic Axis: <span class="weight-300" id="economic-label"></span></h2>
+<h2>자유냐, 권위냐? <span class="weight-300" id="economic-label"></span></h2>
 <div class="axis">
     <img id="img-equality" src="value_images/equality.svg" height="128pt"/>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
     <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
     <img id="img-wealth" src="value_images/wealth.svg" height="128pt"/>
 </div>
-<h2>Diplomatic Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
+<h2>차별은 필요한가? <span class="weight-300" id="diplomatic-label"></span></h2>
 <div class="axis">
     <img id="img-might" src="value_images/might.svg" height="128pt"/>
     <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
     <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
     <img id="img-peace" src="value_images/peace.svg" height="128pt"/>
 </div>
-<h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
+<h2>신의 나라는 가능한가? <span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
     <img id="img-liberty" src="value_images/liberty.svg" height="128pt"/>
     <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
     <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
     <img id="img-authority" src="value_images/authority.svg" height="128pt"/>
 </div>
-<h2>Societal Axis: <span class="weight-300" id="society-label"></span></h2>
+<h2>난이도는 어떤 게 좋은가? <span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
     <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
     <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
@@ -48,8 +48,9 @@
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
 <h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
-<p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>
-<p>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism. </p>
+<p>도출된 이념 판별 결과는 부정확할 수 있습니다. 결과값을 직접 비교하는 것이 더욱 정확할 수 있습니다.</p>
+<p>이 테스트는 게임 모드 전용 가상 역사에 기반을 두고 있습니다. 실제 정치적 의미와는 크게 다를 수 있습니다.</p>
+<p>아래 자동으로 생성된 이미지나, 이 페이지의 주소 값을 이용하여 결과를 공유할 수 있습니다.</p>
 <hr/>
 <img src="" id="banner">
 <button class="button" onclick="location.href='index.html';">다시하기</button> <br>
@@ -75,10 +76,10 @@
         }
     }
 
-    econArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
-    diplArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
-    govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
-    sctyArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+    econArray = ["자유지상주의","자유에 대한 갈망","자유의 필요성 주장","조화의 필요성 주장","권위의 필요성 주장","권위의존적 성향","탄압지향적 성향"]
+    diplArray = ["평등을 쟁취하자","평등은 중요하다","평등은 필요하다","적당히 하면 된다","차별은 필요악이다","차별은 공정하다","차별은 정당하다"]
+    govtArray = ["종교 혐오자","반종교적 성향","무신론자","불가지론자","유신론자","종교우선주의","광신도"]
+    sctyArray = ["돌아버린 게이머","빡세야 게임이다","이 정도는 해야지","보통 난이도는 하자","이 정도가 딱 적당해","재밌으려고 게임하지","튜토리얼도 어렵다"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
