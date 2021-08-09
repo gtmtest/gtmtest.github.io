@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     background-color: #bbbbbb;
     padding: 0px;
@@ -28,7 +35,7 @@ p.value {
     margin-left: 20pt;
     font-size: 28px;
     line-height: 2.11666656px;
-    font-family: 'Montserrat';
+    font-family: 'RixYeoljeongdo_Regular';
 }
 
 p.blurb-text {
@@ -39,12 +46,12 @@ p.axis_name {
     margin-top: 50px;
     color: #333333;
     font-size: 24px;
-    font-family: 'Montserrat';
+    font-family: 'RixYeoljeongdo_Regular';
 }
 p.question {
     margin: 16pt auto;
     color: #333333;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RixYeoljeongdo_Regular', sans-serif;
     font-weight: normal;
     width: 70%;
     min-width: 500pt;
@@ -59,19 +66,19 @@ p.question {
     text-align: center;
 
 }
-h2 {
+h1 {
     color: #222222;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 72pt;
+    font-family: 'RixYeoljeongdo_Regular', sans-serif;
+    font-size: 56pt;
     text-align: center;
     line-height: 72pt;
     margin-top: 0pt;
     margin-bottom: 0pt;
 }
-h3 {
+h2 {
     color: #333333;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36pt;
+    font-family: 'RixYeoljeongdo_Regular', sans-serif;
+    font-size: 24pt;
     line-height: 36pt;
     margin-top: 12pt;
     margin-bottom: 0pt;
@@ -100,7 +107,7 @@ img.center {
 }
 .button {
     background-color: #2196f3;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RixYeoljeongdo_Regular', sans-serif;
     border: none;
     border-radius: 8pt;
     color: white;
@@ -196,7 +203,7 @@ div.bar {
     width: 50%;
 }
 div.text-wrapper {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'RixYeoljeongdo_Regular', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
     color: #222222;
