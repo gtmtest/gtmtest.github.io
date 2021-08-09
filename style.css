@@ -100,6 +100,7 @@ img.center {
     display: block;
     margin: 1em auto;
     width: 100%;
+    max-width: 500pt;
 }
 .spacer {
     display: flex;
@@ -117,8 +118,8 @@ img.center {
     border-radius: 8pt;
     color: white;
     padding: 8pt;
-    width: 50%;
-    min-width: 500pt;
+    width: 100%;
+    max-width: 500pt;
     text-align: center;
     text-decoration: none;
     display: block;
