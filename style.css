@@ -101,6 +101,7 @@ img.center {
     margin: 1em auto;
     width: 50%;
     min-width: 500pt;
+    max-width: 100%;
 }
 .spacer {
     display: flex;
