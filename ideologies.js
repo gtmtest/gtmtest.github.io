@@ -1,469 +1,118 @@
 ideologies = [
     {
-        "name": "Anarcho-Communism",
+        "name": "무정부주의",
         "stats": {
             "econ": 100,
-            "dipl": 50,
+            "dipl": 100,
             "govt": 100,
             "scty": 90
         }
     },
     {
-        "name": "Libertarian Communism",
+        "name": "집산주의",
         "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 80
+            "econ": 90,
+            "dipl": 90,
+            "govt": 90,
+            "scty": 90
         }
     },
     {
-        "name": "Trotskyism",
+        "name": "이상적 공화주의",
         "stats": {
-            "econ": 100,
-            "dipl": 100,
-            "govt": 60,
-            "scty": 80
+            "econ": 85,
+            "dipl": 85,
+            "govt": 85,
+            "scty": 85
         }
     },
     {
-        "name": "Marxism",
+        "name": "현실공화주의",
         "stats": {
-            "econ": 100,
-            "dipl": 70,
+            "econ": 75,
+            "dipl": 75,
+            "govt": 75,
+            "scty": 55
+        }
+    },
+    {
+        "name": "고전적 공화주의",
+        "stats": {
+            "econ": 60,
+            "dipl": 60,
             "govt": 40,
-            "scty": 80
-        }
-    },
-    {
-        "name": "De Leonism",
-        "stats": {
-            "econ": 100,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Leninism",
-        "stats": {
-            "econ": 100,
-            "dipl": 40,
-            "govt": 20,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Stalinism/Maoism",
-        "stats": {
-            "econ": 100,
-            "dipl": 20,
-            "govt": 0,
             "scty": 60
         }
     },
     {
-        "name": "Religious Communism",
+        "name": "제한적 근왕주의",
         "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 30
-        }
-    },
-    {
-        "name": "State Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Theocratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Religious Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 70,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Democratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Revolutionary Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 20,
-            "govt": 50,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Libertarian Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 80,
-            "govt": 80,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Anarcho-Syndicalism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Left-Wing Populism",
-        "stats": {
-            "econ": 60,
+            "econ": 50,
             "dipl": 40,
-            "govt": 30,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Theocratic Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Social Liberalism",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
             "govt": 60,
-            "scty": 80
+            "scty": 45
         }
     },
     {
-        "name": "Christian Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 50,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Social Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Progressivism",
-        "stats": {
-            "econ": 60,
-            "dipl": 80,
-            "govt": 60,
-            "scty": 100
-        }
-    },
-    {
-        "name": "Anarcho-Mutualism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 70
-        }
-    },
-    {
-        "name": "National Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Global Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 80,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Technocracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 20,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Centrist",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Liberalism",
-        "stats": {
-            "econ": 50,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Religious Anarchism",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Right-Wing Populism",
-        "stats": {
-            "econ": 40,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Moderate Conservatism",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Reactionary",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 10
-        }
-    },
-    {
-        "name": "Social Libertarianism",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Libertarianism",
-        "stats": {
-            "econ": 40,
-            "dipl": 60,
-            "govt": 80,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Anarcho-Egoism",
-        "stats": {
-            "econ": 40,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Nazism",
-        "stats": {
-            "econ": 40,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
-        }
-    },
-    {
-        "name": "Autocracy",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Fascism",
-        "stats": {
-            "econ": 40,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Capitalist Fascism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Conservatism",
+        "name": "전제적 근왕주의",
         "stats": {
             "econ": 30,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Neo-Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 30,
-            "govt": 50,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Classical Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Authoritarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 20,
-            "scty": 40
-        }
-    },
-    {
-        "name": "State Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Neo-Conservatism",
-        "stats": {
-            "econ": 20,
             "dipl": 20,
-            "govt": 40,
-            "scty": 20
+            "govt": 60,
+            "scty": 45
         }
     },
     {
-        "name": "Fundamentalism",
+        "name": "종교적 근왕주의",
         "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 5
+            "econ": 60,
+            "dipl": 45,
+            "govt": 15,
+            "scty": 45
         }
     },
     {
-        "name": "Libertarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 80,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Market Anarchism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Objectivism",
+        "name": "차별적 근왕주의",
         "stats": {
             "econ": 10,
-            "dipl": 50,
-            "govt": 90,
-            "scty": 40
+            "dipl": 5,
+            "govt": 35,
+            "scty": 45
         }
     },
     {
-        "name": "Totalitarian Capitalism",
+        "name": "종교적 이상주의",
         "stats": {
-            "econ": 0,
-            "dipl": 30,
+            "econ": 55,
+            "dipl": 85,
             "govt": 0,
-            "scty": 50
+            "scty": 85
         }
     },
     {
-        "name": "Ultra-Capitalism",
+        "name": "관료적 근본주의",
         "stats": {
-            "econ": 0,
+            "econ": 30,
             "dipl": 40,
-            "govt": 50,
-            "scty": 50
+            "govt": 0,
+            "scty": 30
         }
     },
     {
-        "name": "Anarcho-Capitalism",
+        "name": "차별적 근본주의",
         "stats": {
             "econ": 0,
-            "dipl": 50,
-            "govt": 100,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 30
+        }
+    },
+    {
+        "name": "극단적 근본주의",
+        "stats": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
             "scty": 50
         }
     }
