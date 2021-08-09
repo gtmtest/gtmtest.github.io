@@ -41,7 +41,7 @@
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
-        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        document.getElementById("question-number").innerHTML = "문제 " + (questions.length) + "개 중 " + (qn + 1) + "번 째";
         if (qn == 0) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';
