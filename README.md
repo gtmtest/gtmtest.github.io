@@ -1,2 +1,2 @@
-# 8values.github.io
-The 8values Political Quiz measures individuals' political values, including Equality, Nation, Liberty, Tradition, Markets, World, Authority, and Progress.
+# GTMTest
+8Values 기반, 개발중인 HOI4용 모드 '위대한 개선행진'의 등장 세력·이념을 대상으로 함.
